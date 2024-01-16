@@ -1,3 +1,10 @@
+# Replication
+
+1. git clone this repo
+2. npm install
+3. check the ```./src/routes/+page.server.ts```
+4. Notice that you can't import ```turf```.
+
 # Turf type problem in Svelte
 
 Issues: cannot import `import turf from @turf/turf` in Svelte Typescript app if ```tsconfig.json``` configuration ```moduleResolution``` is set to ```Bundler```.
