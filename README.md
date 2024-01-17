@@ -1,3 +1,22 @@
+# Update: Problem Solved
+
+changed the `moduleResolution` to `bundler`.
+
+using ```npm i @turf/area@7.0.0-alpha.110```, and have ```turf``` imported as following:
+
+```typescript
+import * as turf from '@turf/turf'
+
+const point = turf.helpers.point([-75.343, 39.984]);
+const buffer = turf.buffer(point, 1000, {
+	units: 'meters'
+});
+```
+
+check `./src/routes/+page.server.ts`
+
+---
+
 # Replication
 
 1. git clone this repo
