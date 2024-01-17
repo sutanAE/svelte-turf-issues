@@ -33,6 +33,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@turf/turf": "^6.5.0"
+		"@turf/turf": "^7.0.0-alpha.110",
+		"i": "^0.3.7",
+		"npm": "^10.3.0"
 	}
 }
