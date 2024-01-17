@@ -1,14 +1,10 @@
-<script lang='ts'>
+<script lang="ts">
+	export let data;
 
-    export let data;
-
-
-    const { buffer} = data
+	const { buffer } = data;
 </script>
 
+<div>Buffering:</div>
 <div>
-    Buffering:
-</div>
-<div>
-    {JSON.stringify(buffer, null, 4)}
+	{JSON.stringify(buffer, null, 4)}
 </div>
