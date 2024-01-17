@@ -1,5 +1,7 @@
 # Update: Problem Solved
 
+[Conversation](https://github.com/Turfjs/turf/issues/2570)
+
 changed the `moduleResolution` to `bundler`.
 
 using ```npm i @turf/area@7.0.0-alpha.110```, and have ```turf``` imported as following:
